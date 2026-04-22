@@ -1,0 +1,28 @@
+# Backend
+fastapi
+uvicorn
+
+# ML Models
+scikit-learn
+xgboost
+
+# Deep Learning
+tensorflow
+
+# Data Processing
+pandas
+numpy
+
+# NLP
+nltk
+
+# Model Saving/Loading
+joblib
+
+# Visualization (used during training)
+matplotlib
+seaborn
+
+# Optional (recommended)
+python-multipart
+pydantic
