@@ -37,7 +37,7 @@ This project aims to detect fake news using Natural Language Processing (NLP) te
 # ⚙️ Installation & Setup
 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/Shivangisingh4/Fake-News-Classifier-lr-rf-xgb-lstm.git
+git clone <your-repo-link>
 cd fake-news-project
 ```
 2️⃣ Create Virtual Environment
@@ -58,3 +58,42 @@ uvicorn app:app --reload
 ```bash
 http://127.0.0.1:8000/docs
 ```
+
+# 📊 Models Used
+
+🔹 Logistic Regression
+
+- Best baseline model
+- Performs well with TF-IDF features
+
+🔹 Random Forest
+
+- Captures non-linear patterns
+- Can overfit on text data
+
+🔹 XGBoost
+
+- Boosting-based model
+- High performance but sensitive to features
+
+🔹 LSTM
+
+- Deep learning model
+- Captures sequence and context
+- Uses tokenization and padding
+
+# 🧹 Data Preprocessing
+
+## For ML Models (LR, RF, XGB)
+
+- Convert text to lowercase
+- Remove punctuation and numbers
+- Remove stopwords
+- Apply TF-IDF vectorization
+
+## For LSTM
+
+- Use raw text
+- Tokenization
+- Sequence padding (pre)
+
